@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\checkmark_24px.png" />
+    <None Remove="Image\exit_50px.png" />
+    <None Remove="Image\home_50px.png" />
+    <None Remove="Image\settings_50px.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\checkmark_24px.png" />
+    <Resource Include="Image\exit_50px.png" />
+    <Resource Include="Image\home_50px.png" />
+    <Resource Include="Image\settings_50px.png" />
+  </ItemGroup>
+
+</Project>
